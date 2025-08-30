@@ -43,8 +43,7 @@ El sistema se representa como una **caja negra** con entradas y salidas claramen
 - LEDs WS2812B indicando el cajón correspondiente.
 - Reportes de inventario.
 
-📌 *Ilustración 1: Diagrama de contexto con entradas y salidas*  
-(agregar imagen en `/imagenes/contexto.png`)
+*Ilustración 1: Diagrama de contexto con entradas y salidas*  
 
 ---
 
@@ -62,8 +61,7 @@ El sistema se representa como una **caja negra** con entradas y salidas claramen
   - Entrada: teclado y mouse USB.
   - Salida: pantalla HDMI, LEDs indicadores.
 
-📌 *Ilustración 2: Diagrama de bloques con interconexiones y protocolos*  
-(agregar imagen en `/imagenes/bloques.png`)
+*Ilustración 2: Diagrama de bloques con interconexiones y protocolos*  
 
 ---
 
@@ -80,8 +78,7 @@ La máquina de estados describe el flujo lógico del sistema:
 7. **Error/Validación fallida** → Mensaje al usuario, LEDs rojos.  
 8. **Confirmación** → Se muestra mensaje de éxito y se retorna a “Espera”.
 
-📌 *Ilustración 3: Diagrama de máquina de estados detallada*  
-(agregar imagen en `/imagenes/estados.png`)
+*Ilustración 3: Diagrama de máquina de estados detallada*  
 
 ---
 
@@ -107,7 +104,7 @@ El sistema busca que la interacción sea intuitiva: al seleccionar un componente
 - Pros: conectividad WiFi integrada, mayor procesamiento, manejo de base de datos local, escalabilidad.  
 - Contras: costo mayor comparado con Arduino, mayor complejidad de configuración.  
 
-📌 Evidencia: La Raspberry Pi permite correr SQLite y servidor local, mientras la ESP32 maneja periféricos y LEDs, asegurando modularidad y escalabilidad.
+Evidencia: La Raspberry Pi permite correr SQLite y servidor local, mientras la ESP32 maneja periféricos y LEDs, asegurando modularidad y escalabilidad.
 
 ---
 
